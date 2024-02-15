@@ -1,0 +1,56 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  padding: 16px;
+  border-radius: 8px;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+.text {
+  font-size: 20px;
+  margin: 0;
+  color: #8e8f99;
+  text-align: center;
+}
+.name {
+  font-size: 28px;
+  margin: 0;
+  color: #434455;
+  font-weight: 500;
+  text-align: center;
+}
+.list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.item {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleList {
+  font-size: 16px;
+  color: #8e8f99;
+}
+.active {
+  font-size: 18px;
+  color: #434455;
+  font-weight: 500;
+}

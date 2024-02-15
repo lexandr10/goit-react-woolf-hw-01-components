@@ -1,0 +1,15 @@
+.table {
+  background-color: #f4f4fd;
+  border-collapse: separate;
+  table-layout: fixed;
+  border-spacing: 20px 40px;
+}
+.main {
+  background-color: #31d0aa;
+}
+.title {
+  font-size: 28px;
+  padding: 20px;
+  color: #fff;
+  width: 80px;
+}

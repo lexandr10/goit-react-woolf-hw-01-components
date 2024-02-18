@@ -1,7 +1,7 @@
 import Profile from './profile/profile';
 import { Statistic } from './statistic/statistic';
-import { GenerateFriends } from './friends.list/friends';
-import { HistoryPay } from './transaction/transaction';
+import { Friends } from './friends.list/friends';
+import { Transaction } from './transaction/transaction';
 
 import friendsList from '../data/friends.list.json';
 import user from '../data/user.json';
@@ -22,8 +22,8 @@ export const App = () => {
     >
       <Profile data={user}></Profile>
       <Statistic stats={statusBar} title="Upload stats"></Statistic>
-      <GenerateFriends listFriends={friendsList}></GenerateFriends>
-      <HistoryPay pays={transactions}></HistoryPay>
+      <Friends listFriends={friendsList}></Friends>
+      <Transaction pays={transactions}></Transaction>
     </div>
   );
 };

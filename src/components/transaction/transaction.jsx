@@ -1,5 +1,5 @@
 import stl from './transaction.module.css';
-export const HistoryPay = ({ pays }) => (
+export const Transaction = ({ pays }) => (
   <table className={stl.table}>
     <thead className={stl.main}>
       <tr>

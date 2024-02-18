@@ -1,7 +1,7 @@
 import stl from './statistic.module.css';
 export const Statistic = ({ title, stats }) => (
   <section className={stl.sec}>
-    <h2 className={stl.mainTitle}>{title}</h2>
+    {title && <h2 className={stl.mainTitle}>{title}</h2>}
 
     <ul className={stl.list}>
       {stats.map(({ id, label, percentage }) => (
